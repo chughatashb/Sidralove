@@ -422,14 +422,14 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		UZAIR =input(" Choose : ")
-		if UZAIR in ["1", "01"]:
+		 KALEEM =input(" Choose : ")
+		if KALEEM in ["1", "01"]:
 			File()
-		if UZAIR in ["2", "02"]:
+		if KALEEM in ["2", "02"]:
 			Public()
-		if UZAIR in ["3", "03"]:
+		if KALEEM in ["3", "03"]:
 			os.system("python Dump.py")
-		if UZAIR in ["4", "04"]:
+		if KALEEM in ["4", "04"]:
 			self.old()
 		if UZAIR in ["5", "05"]:
 			self.old2()
